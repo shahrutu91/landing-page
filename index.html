@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Premavera</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    
+</head>
+<body>
+    <!-- Navbar Header -->
+    <header class="header_top">
+        <nav class="navbar_menu">
+            <ul id="navbar_list"></ul>
+        </nav>
+    </header>
+    <div class="main">
+        <!-- header -->
+        <section id="home" data-nav="Home" class="active">
+        <div class="navbar">
+            <header id="header">
+                <h1>Premavera</h1>
+                <p>A Fine Textile For Stunning Home</p>
+            </header>
+        </div>
+        </section>
+        <!-- about section -->
+        <section id="about" data-nav="About" >
+            <div id="section1" class="body-section">
+                <img src="./image/about.jpeg" alt="living room" width="600px" height="600px">
+                <div class="para">
+                    <h2>About Premavera</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo expedita sint aliquid suscipit reprehenderit itaque officia iusto cupiditate ad reiciendis!
+                    </p>
+                        <button class="bt"><a href="#">More About Us</a></button>
+                </div>
+            </div>
+        </section>
+        <!-- fabric Section -->
+        <section id="fabric" data-nav="Fabrics">
+            <div id="section2" class="body-section">
+                <img src="./image/fabric 4.jpeg" alt="fabric" width="600px" height="600px">
+                    <div class="para">
+                        <h2>Fabrics</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nemo voluptatibus tenetur minima quam aspernatur eaque veniam omnis nesciunt nisi?
+                        </p>
+                        <button class="bt"><a href="#">More About Fabrics</a></button>
+                </div>
+            </div>
+        </section>
+    <!-- Navbar-HomeAccesories -->
+        <section id="homeacc" data-nav="Home Decor">
+            <div id="section3" class="body-section">
+                <img src="./image/ha 3.jpeg" alt="" width="600px" height="600px">
+                    <div class="para">
+                    <h2>Home Accesories</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nobis cumque architecto ex aut voluptatem voluptatum dicta. Iste, eos recusandae.
+                    </p>
+                        <button class="bt"><a href="#">More About Home Accesories.</a></button>
+                    </div>
+                </div>
+        </section>
+
+    <!-- Section 4 -->
+        <section id="contact" data-nav="Contact">
+        <div id="section4" class="body-section">
+            <h2>Stay Connected to Us</h2>
+            <div class="contact">
+                <!-- right container -->
+                <div class="right">
+                    <!-- form -->
+                <form>
+                    <div class="container">
+                        <h3>Register</h3>
+                        <p>Please fill in this form to create an account.</p>
+                        <!-- first Name -->
+                        
+                        <label for="fname">First Name</label>
+                        <span>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </span>
+                        <!-- last name -->
+                        <label for="lname">Last Name</label>
+                        <span>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </span>
+                        <!-- Email -->
+                        <label for="email"><b>Email</b></label>
+                        <span>
+                        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                        </span>
+                        <!-- Password -->
+                        <label for="psw"><b>Password</b></label>
+                        <span>
+                        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                        </span>
+                        <!-- term and condition -->
+                        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                        <span>
+                        <button type="submit" class="bt">Register</button>
+                        </span>
+                    </div>
+                    <!-- signin -->
+                    <div class="container signin">
+                        <p>Already have an account? <a href="#">Sign in.</a></p>
+                    </div>
+                </form>
+                </div>
+                <!-- left content -->
+                <div class="left">
+                    <!-- location -->
+                <div class="location">
+                <h3>Location</h3>
+                <address>
+                    Visit us at: <a href="#">www.Premavera.com</a><br>
+                    Box 564, Disneyland<br>
+                    USA
+                </address> <br>
+                </div>
+                <!-- connect -->
+                <div class="connect">
+                <h3>Around the Web</h3>
+                <div class="ftinner">
+                <a href="http://www.facebook.com">Facebook</a>
+                <a href="http://www.instagram.com">Instagram</a>
+                <a href="http://www.pintrest.com">Pintrest</a>
+                </div>
+                </div>
+                </div>
+            </div>
+            <!-- copyright -->
+            <footer class="foot">
+            <p style="text-align: center;"><small>&copy;2021premvera.com</small></p>
+            </footer>
+        </div>
+        </section>
+    </div>
+    <script src="./JS/app.js"></script>
+</body>
+</html>
